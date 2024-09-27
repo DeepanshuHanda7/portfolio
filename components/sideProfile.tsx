@@ -1,9 +1,9 @@
 "use client";
 import { Link } from "@nextui-org/link";
 import { Image } from "@nextui-org/image";
-import { FaLinkedin, FaTwitter, FaWhatsapp, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { SiLeetcode ,SiCodeforces} from "react-icons/si";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
 import { siteConfig } from "@/config/site";
 
@@ -33,8 +33,15 @@ const SideProfile = () => {
         <Link isExternal aria-label="Leetcode" href={siteConfig.links.leetcode}>
           <SiLeetcode className="text-gray-500 dark:text-gray-400" size={25} />
         </Link>
-        <Link isExternal aria-label="Whatsapp" href={siteConfig.links.codeforces}>
-          <SiCodeforces className="text-gray-500 dark:text-gray-400" size={25} />
+        <Link
+          isExternal
+          aria-label="Whatsapp"
+          href={siteConfig.links.codeforces}
+        >
+          <SiCodeforces
+            className="text-gray-500 dark:text-gray-400"
+            size={25}
+          />
         </Link>
         <Link isExternal aria-label="Email" href={siteConfig.links.email}>
           <BiLogoGmail className="text-gray-500 dark:text-gray-400" size={25} />

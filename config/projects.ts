@@ -6,8 +6,8 @@ export const projects = [
     title: "IMDB clone",
     description:
       "Imdb clone with moviedb apis to show movie details and rating",
-    deployLink: "https://imdb-clone-tan.vercel.app/",
-    codeLink: "https://github.com/priyaaanshh/Movie-Web-App",
+    deployLink: "https://imdb-clone-seven-ruby.vercel.app/",
+    codeLink: "https://github.com/DeepanshuHanda7/imdb-clone",
     image: "/images/IMDB.png",
   },
   {
@@ -16,5 +16,5 @@ export const projects = [
     deployLink: "https://zomato-clone-dun-omega.vercel.app/",
     codeLink: "https://github.com/DeepanshuHanda7/Zomato-Clone",
     image: "/images/Zomato.png",
-  }
+  },
 ];
